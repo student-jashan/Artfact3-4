@@ -1,0 +1,512 @@
+/* General styles for the page */
+.login-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Left Panel Styling */
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #42a5f5;
+  color: white;
+  width: 50%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.branding-block {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.branding-block h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.branding-block p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Right Panel Styling */
+.right-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1565c0;
+}
+
+.login-form p {
+  text-align: center;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0d47a1;
+}
+
+.forgot-password,
+.create-account {
+  color: #1565c0;
+  text-decoration: none;
+}
+
+.forgot-password:hover,
+.create-account:hover {
+  text-decoration: underline;
+}
+.dashboard-page {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.icon-card {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+.icon-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.icon-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
+
+.icon-card:active {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.courses-list-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.courses-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.courses-table th,
+.courses-table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.courses-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.courses-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.courses-table tr:hover {
+  background-color: #e6f7ff;
+}
+
+.courses-table .view-details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.courses-table .view-details-btn:hover {
+  background-color: #0056b3;
+}
+.course-details-page {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.details-box {
+  display: inline-block;
+  text-align: left;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.details-box h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.details-box p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.details-box strong {
+  color: #333;
+}
+
+.back-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.edit-btn,
+.save-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #2495c9;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #2495c9;}
+
+.save-btn {
+  background-color: #2495c9;
+    color: white;
+}
+
+.save-btn:hover {
+  background-color: #2495c9;}
+.viewdetail-btn {
+  background-color: #2495c9;  color: white;
+}
+
+.viewdetail-btn:hover {
+  background-color: #2495c9;  color:#555
+}
+.details-container {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #c82333;
+}
+.edit-course-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.edit-course-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.edit-course-form input,
+.edit-course-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-course-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.course-details-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.edit-form {
+  margin-top: 20px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.details-box {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.edit-btn,
+.back-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-course-form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.add-course-form button[type="button"] {
+  background-color: #dc3545;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.add-course-form h2 {
+  text-align: center; /* Centering the heading */
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+
+.edit-course-form button {
+ 
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  
+}
+
+.edit-course-form button:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}
